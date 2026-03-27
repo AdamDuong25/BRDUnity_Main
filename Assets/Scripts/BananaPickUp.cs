@@ -17,7 +17,6 @@ public class BananaPickUp : MonoBehaviour
   {
     gameObject.SetActive(false);
     AudioManager.instance.PlaySound("PointGrab");
-
     winText.text = "NICE!";
     ButtonMenu.SetActive(true);
     AudioManager.instance.PlaySound("TreasureGet");

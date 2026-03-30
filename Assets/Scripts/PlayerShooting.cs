@@ -4,7 +4,7 @@ public class PlayerShooting : MonoBehaviour
 {
   public float range = 100.0f;
   public float damage = 25.0f;
-  public Camera fpsCamera;
+  public Camera FPSCamera;
   public LayerMask shootingLayer;
 
   void Update()
@@ -16,9 +16,9 @@ public class PlayerShooting : MonoBehaviour
   void Shoot()
   {
     RaycastHit hit;
-    if (Physics.Raycast(fpsCamera.transform.position, fpsCamera.transform.forward, out hit, range, shootingLayer))
+    if (Physics.Raycast(FPSCamera.transform.position, FPSCamera.transform.forward, out hit, range, shootingLayer))
     {
-      Debug.DrawRay(fpsCamera.transform.position, fpsCamera.transform.forward * range, Color.red, 2.0f);
+      Debug.DrawRay(FPSCamera.transform.position, FPSCamera.transform.forward * range, Color.red, 2.0f);
       
       IDamageable damageable = hit.transform.GetComponent<IDamageable>();
       if (damageable != null)

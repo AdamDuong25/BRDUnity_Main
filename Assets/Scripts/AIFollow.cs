@@ -3,7 +3,7 @@ using UnityEngine.AI;
 
 public class AIFollow : MonoBehaviour
 {
-  public Transform target;  // For example the player or other objects.
+  public Transform target; // For example the player or other objects.
   private NavMeshAgent agent;
 
   void Start()

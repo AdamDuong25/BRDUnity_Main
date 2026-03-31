@@ -153,10 +153,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44f845be77a6b534381302b541849192, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 1
+  delay: 2
   blastRadius: 10
   explosionForce: 700
-  damageAmount: 200
+  damageAmount: 100
   damageableLayer:
     serializedVersion: 2
     m_Bits: 256

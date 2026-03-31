@@ -446,9 +446,11 @@ GameObject:
   - component: {fileID: 7400739322105707599}
   - component: {fileID: 1062133130812515541}
   - component: {fileID: 4440227090142071483}
+  - component: {fileID: 7243704465504670566}
   - component: {fileID: 4073448294315517485}
   - component: {fileID: 762634316214768101}
   - component: {fileID: 3557059041797736402}
+  - component: {fileID: -4187668838589147580}
   m_Layer: 8
   m_Name: EnemyFPS
   m_TagString: Untagged
@@ -549,6 +551,33 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &7243704465504670566
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7738872956111042172}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!195 &4073448294315517485
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -597,3 +626,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
+--- !u!114 &-4187668838589147580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7738872956111042172}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ca5c455d3f7c6943b306f5ef89101c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points: []

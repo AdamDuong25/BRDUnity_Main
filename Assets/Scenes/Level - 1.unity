@@ -2490,11 +2490,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - {fileID: 8300000, guid: 032de2738bd75db44ad5ff8882b25044, type: 3}
   - {fileID: 8300000, guid: 0a758885795fb304e9fc6b64de3f0fd2, type: 3}
   - {fileID: 8300000, guid: 1243a2a10a4fa6a419b1beb48abd42b1, type: 3}
   soundNames:
-  - TreasureGet
   - PointGrab
   - CheesyIntro
   musicTracks:

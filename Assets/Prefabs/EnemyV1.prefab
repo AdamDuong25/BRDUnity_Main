@@ -452,7 +452,7 @@ GameObject:
   - component: {fileID: 3557059041797736402}
   - component: {fileID: -4187668838589147580}
   m_Layer: 8
-  m_Name: EnemyFPS
+  m_Name: EnemyV1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

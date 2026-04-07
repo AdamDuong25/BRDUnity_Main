@@ -3,6 +3,7 @@ using TMPro;
 
 public class BananaPickUp : MonoBehaviour
 {
+  [SerializeField] GameObject ButtonNextLevel;
   [SerializeField] GameObject ButtonMenu;
   TextMeshProUGUI winText;
 
@@ -10,6 +11,7 @@ public class BananaPickUp : MonoBehaviour
   {
     winText = GameObject.Find("Win").GetComponent<TextMeshProUGUI>();
     winText.text = "";
+    ButtonNextLevel.SetActive(false);
     ButtonMenu.SetActive(false);
   }
 
@@ -18,6 +20,7 @@ public class BananaPickUp : MonoBehaviour
     gameObject.SetActive(false);
     AudioManager.instance.PlaySound("PointGrab");
     winText.text = "NICE!";
+    ButtonNextLevel.SetActive(true);
     ButtonMenu.SetActive(true);
     AudioManager.instance.PlaySound("TreasureGet");
   }

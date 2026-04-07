@@ -5,6 +5,7 @@ public class PickUp : MonoBehaviour
 {
   [SerializeField] static int score = 0;
   [SerializeField] static int winScore = 5;
+  [SerializeField] GameObject ButtonNextLevel;
   [SerializeField] GameObject ButtonMenu;
   TextMeshProUGUI scoreText;
   TextMeshProUGUI winText;
@@ -16,6 +17,7 @@ public class PickUp : MonoBehaviour
     score = 0;
     winText = GameObject.Find("Win").GetComponent<TextMeshProUGUI>();
     winText.text = "";
+    ButtonNextLevel.SetActive(false);
     ButtonMenu.SetActive(false);
     AudioManager.instance.PlayMusic("MiamiBassline");
   }
@@ -29,6 +31,7 @@ public class PickUp : MonoBehaviour
     if (score == winScore)
     {
       winText.text = "YOU WIN!";
+      ButtonNextLevel.SetActive(true);
       ButtonMenu.SetActive(true);
       AudioManager.instance.PauseMusic();
       AudioManager.instance.PlaySound("CheesyIntro");

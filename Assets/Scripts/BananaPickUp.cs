@@ -23,5 +23,6 @@ public class BananaPickUp : MonoBehaviour
     ButtonNextLevel.SetActive(true);
     ButtonMenu.SetActive(true);
     AudioManager.instance.PlaySound("TreasureGet");
+    Cursor.lockState = CursorLockMode.None;
   }
 }

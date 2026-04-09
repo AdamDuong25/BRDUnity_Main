@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Level - FPS Hitscan.unity
     guid: 2e63e95c99a3ee14a8cd666416147082
   - enabled: 1
+    path: Assets/Scenes/Win Screen.unity
+    guid: df652485e798cde45ab157c1d7ba40e5
+  - enabled: 1
     path: Assets/Scenes/Level - Temple.unity
     guid: 3332862f8f122dc42b459daa5602f234
   m_configObjects:

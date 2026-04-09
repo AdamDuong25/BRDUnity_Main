@@ -26,6 +26,7 @@ public class CharController : MonoBehaviour
   private void Start()
   {
     controller = GetComponent<CharacterController>();
+    Cursor.lockState = CursorLockMode.Locked;
 
     // Main camera MUST have the tag "MainCamera"
     cam = Camera.main.transform;

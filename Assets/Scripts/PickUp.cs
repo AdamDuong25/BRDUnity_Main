@@ -35,6 +35,7 @@ public class PickUp : MonoBehaviour
       ButtonMenu.SetActive(true);
       AudioManager.instance.PauseMusic();
       AudioManager.instance.PlaySound("CheesyIntro");
+      Cursor.lockState = CursorLockMode.None;
     }
   }
 }

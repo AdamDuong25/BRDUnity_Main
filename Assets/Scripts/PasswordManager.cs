@@ -40,6 +40,7 @@ public class PasswordManager : MonoBehaviour
         ButtonRetry.SetActive(true);
         ButtonNextLevel.SetActive(true);
         ButtonMenu.SetActive(true);
+        Cursor.lockState = CursorLockMode.None;
       }
     }
   }

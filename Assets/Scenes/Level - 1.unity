@@ -3245,38 +3245,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2040428277}
   m_CullTransparentMesh: 1
---- !u!4 &5362618442952064499
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5638854436211101308}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.18484, y: 0, z: 3.93724}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &5638854436211101308
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5362618442952064499}
-  - component: {fileID: 7597188649535582301}
-  m_Layer: 0
-  m_Name: AudioManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1001 &6456242464530095280
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3334,28 +3302,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5222779c55d5dcc48994d31fa0047417, type: 3}
---- !u!114 &7597188649535582301
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5638854436211101308}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa1a0245a2b715048b0f34d2031679cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sounds:
-  - {fileID: 8300000, guid: 0a758885795fb304e9fc6b64de3f0fd2, type: 3}
-  - {fileID: 8300000, guid: 1243a2a10a4fa6a419b1beb48abd42b1, type: 3}
-  soundNames:
-  - PointGrab
-  - CheesyIntro
-  musicTracks:
-  - {fileID: 8300000, guid: c2144d38542e1fc49be6aacf277ce67c, type: 3}
-  musicNames:
-  - MiamiBassline
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -3372,6 +3318,5 @@ SceneRoots:
   - {fileID: 881626447}
   - {fileID: 873493477}
   - {fileID: 324157042}
-  - {fileID: 5362618442952064499}
   - {fileID: 1587761101}
   - {fileID: 543456069}

@@ -33,6 +33,7 @@ public class PasswordManager : MonoBehaviour
       {
         DoorAnimL.SetTrigger("TrOpen");
         DoorAnimR.SetTrigger("TrOpen");
+        AudioManager.instance.PlaySound("DoorRumble");
       }
       else
       {
